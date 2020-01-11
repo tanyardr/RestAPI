@@ -1,0 +1,31 @@
+{
+  "name": "source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node loader.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taniadr/RestAPI.git"
+  },
+  "keywords": [
+    "nidejs",
+    "express",
+    "mongoDB",
+    "backend"
+  ],
+  "author": "TaniaDR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taniadr/RestAPI/issues"
+  },
+  "homepage": "https://github.com/taniadr/RestAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7",
+    "node-restful": "^0.2.6"
+  }
+}
