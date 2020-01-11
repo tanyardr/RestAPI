@@ -6,6 +6,6 @@ module.exports = function(server){
 	server.use('./api', router)
 
 	//registering api methods in router
-	const itemService = require('../api/items/itemService')
+	const itemService = require('../api/itens/itemService')
 	itemService.register(router, '/item')
 }

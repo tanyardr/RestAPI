@@ -1,5 +1,4 @@
 //This file is for schema and services related to it
-
 const restful = require('node-restful')
 const mongoose restful.mongoose
 
