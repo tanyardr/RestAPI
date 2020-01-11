@@ -11,8 +11,6 @@ const server = express()
 server.use(bodyParser.urlencoded({ extended: true }))
 server.use(bodyParser.json())
 
-server.listen(process.env.PORT || port, function (){
-	console.log('Listening on');
-})
+server.listen(port, function(){})
 
 module.exports = server

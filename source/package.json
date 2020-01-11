@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node loader.js"
+    //"start": "node loader.js"
   },
   "repository": {
     "type": "git",
